@@ -15,4 +15,4 @@ $ pandoc --filter pandoc-citeproc --filter pandoc-fignos  --filter pandoc-eqnos 
 ```
 ### 参数说明
 
-文中用到了基于 [tomduck](https://github.com/tomduck/) 所制作的表格索引 `--filter pandoc-tablenos`，公式索引`--filter pandoc-eqnos`，图片索引`--filter pandoc-fignos`。以及文献引用`--filter pandoc-citeproc`(见[pandoc-citeproc](https://github.com/jgm/pandoc-citeproc))，同时文献引用需要指明参考文献数据格式`--csl=chinese-gb7714-2005-numeric.csl`与存放位置`--bibliography=myref.bib`所以运行 pandoc 时需要添加如上参数。
+文中用到了基于 [tomduck](https://github.com/tomduck/) 所制作的表格索引 `--filter pandoc-tablenos`，公式索引 `--filter pandoc-eqnos`，图片索引 `--filter pandoc-fignos`。以及文献引用 `--filter pandoc-citeproc` (见 [pandoc-citeproc](https://github.com/jgm/pandoc-citeproc))，同时文献引用需要指明参考文献数据格式 `--csl=chinese-gb7714-2005-numeric.csl` 与存放位置 `--bibliography=myref.bib` 所以运行 pandoc 时需要添加如上参数。
