@@ -11,7 +11,7 @@
 ## 如何编译（使用 Pandoc 进行格式转换）
 
 ```shell
-$ pandoc --filter pandoc-fignos  --filter pandoc-eqnos  --filter pandoc-tablenos --filter pandoc-citeproc --bibliography=myref.bib --csl=chinese-gb7714-2005-numeric.csl demo.md -o demo.docx
+$ pandoc --filter pandoc-fignos  --filter pandoc-eqnos  --filter pandoc-tablenos --filter pandoc-citeproc --bibliography=myref.bib --csl=chinese-gb7714-2005-numeric.csl  --reference-doc=./template/template.docx demo.md -o demo.docx
 ```
 > 说明：参数顺序会影响转换后的渲染效果。
 
