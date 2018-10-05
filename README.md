@@ -13,7 +13,9 @@
 ```shell
 $ pandoc --filter pandoc-fignos  --filter pandoc-eqnos  --filter pandoc-tablenos --filter pandoc-citeproc --bibliography=myref.bib --csl=chinese-gb7714-2005-numeric.csl  --reference-doc=./template/template.docx demo.md -o demo.docx
 ```
-> 说明：参数顺序会影响转换后的渲染效果。
+> 说明：
+  - 参数顺序会影响转换后的渲染效果。
+  - 想要使用模板转换文档，应该先将template.md转换为template.docx，修改template.docx的样式。
 
 ### 参数说明
 
