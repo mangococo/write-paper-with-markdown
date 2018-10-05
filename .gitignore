@@ -1,4 +1,4 @@
 /assets
-/template
-/tmp
-/demo.docx
+/template/*.docx
+/tmp/*.png
+/export/*
