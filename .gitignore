@@ -1,4 +1,5 @@
 /assets
 /template/*.docx
+/template/*.doc
 /tmp/*.png
 /export/*
